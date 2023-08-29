@@ -1,5 +1,5 @@
-const AnimalShow = () => {
-    return <div>Cow!</div>
-}
+import React from "react";
+const AnimalShow = ({ type }) => {
+  return <div>{type}</div>;
+};
 export default AnimalShow;
-
